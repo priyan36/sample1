@@ -28,5 +28,38 @@ else:
     print("Invalid Funtion")
 
 
+a=[]
+for i in range (5):
+    num=int(input())
+    a.append(num)
+print(a)
+sum=0
+for i in a:
+    sum = sum+i
+print(sum)
 
-    
+#nested_for
+for i in range(1,5):
+    print()
+    for j in range(1,i+1):
+     print(j,end="")
+
+
+
+
+#while loop
+i=10
+print()
+while i>0:
+    print(i)
+    i-=1
+
+
+#factorial
+a=int(input("Enter a num for fact: "))
+fact = 1
+while a>0:
+    fact=fact*a
+    a=a-1
+print(fact)
+
